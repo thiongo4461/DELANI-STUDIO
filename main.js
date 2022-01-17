@@ -18,3 +18,6 @@ $('.three').click(function(evt){
     element.classList.toggle("invisible");
     console.log(`this is the id ${element}`)
   });
+function submitForm(){
+    alert("your data has been received")
+  }
